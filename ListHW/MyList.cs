@@ -9,6 +9,7 @@ namespace ListHW
   class MyList<Type>
     {
         static Type[] myList = new Type[0];
+        public int Count { get { return myList.Length; } }
         public Type this[int index]
         {
             get
@@ -37,11 +38,6 @@ namespace ListHW
             {
                 Console.Write(element + " ");
             }
-        }
-
-        public int AllElements()
-        {
-          return myList.Length;
         }
     }
 }

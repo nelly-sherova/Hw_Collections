@@ -12,20 +12,27 @@ namespace ListHW
 
             MyList<int> list = new MyList<int>();
 
+            Console.WriteLine("List");
+            //добавление
             list.Add(5);
             list.Add(12);
+            list.Add(13);
+            // поиск по индексу
 
-           
             Console.WriteLine(list.FindByIndex(0));
 
+
+            // все элементы 
             list.ShowAllElements();
 
-            Console.WriteLine("\n" + list.AllElements());
-
             MyDictionary<string, string> dictionary = new MyDictionary<string, string>();
+            // добавление 
+            dictionary.Add("Person", "Nilufar");
 
-            dictionary.Add("1", "Nilufar");
-            Console.WriteLine(dictionary.FindElementByIndex("1"));
+            dictionary.Add("Zoo", "Crokodile");
+            // поиск по ключу
+            Console.WriteLine();
+            Console.WriteLine(dictionary.FindElementByIndex("Person"));
         }
     }
 }   
