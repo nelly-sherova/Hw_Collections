@@ -26,6 +26,7 @@ namespace ListHW
         {
             Array.Resize(ref myList, myList.Length + 1);
             myList[myList.Length - 1] = element;
+            Console.WriteLine("Добавлен эленмент: " + element);
         }
         public Type FindByIndex(int index)
         {

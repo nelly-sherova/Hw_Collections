@@ -45,9 +45,11 @@ namespace ListHW
 
           Array.Resize(ref valuesList, valuesList.Length + 1);
           valuesList[valuesList.Length - 1] = value;
+
+           Console.WriteLine("Добавлен ключ: " + key  + "Добавлено значение:  " + value);
       }
 
-      public TValue FindElementByIndex(TKey item)
+      public TValue FindElementByKey(TKey item)
       {
           TValue value = valuesList[0];
           for(int i = 0; i < keysList.Length; i++)
@@ -70,7 +72,13 @@ namespace ListHW
             }
             return 0;
         }
-
+      public void ShowAllElements()
+      {
+        for (int i = 0; i < keysList.Length; i++)
+        {
+          Console.WriteLine($"Key: {keysList[i]}; Value: {valuesList[i]}");
+        }
+      }
       
     
   }

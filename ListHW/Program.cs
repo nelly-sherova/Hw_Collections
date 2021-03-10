@@ -9,30 +9,53 @@ namespace ListHW
     {
         static void Main(string[] args)
         {
-
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
             MyList<int> list = new MyList<int>();
-
             Console.WriteLine("List");
-            //добавление
+            
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Добавление"); 
+            Console.ResetColor();
             list.Add(5);
             list.Add(12);
             list.Add(13);
-            // поиск по индексу
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Поиск по индексу");
+            Console.ResetColor();
 
             Console.WriteLine(list.FindByIndex(0));
 
-
-            // все элементы 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Все элементы");
+            Console.ResetColor();
             list.ShowAllElements();
+            
 
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("\nDictionary");
+            Console.ResetColor();
             MyDictionary<string, string> dictionary = new MyDictionary<string, string>();
-            // добавление 
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Добавление");
+            Console.ResetColor();
+
             dictionary.Add("Person", "Nilufar");
 
             dictionary.Add("Zoo", "Crokodile");
-            // поиск по ключу
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Поиск по ключу");
+            Console.ResetColor();
+
             Console.WriteLine();
-            Console.WriteLine(dictionary.FindElementByIndex("Person"));
+            Console.WriteLine(dictionary.FindElementByKey("Person"));
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Все элементы!");
+            Console.ResetColor();
+            dictionary.ShowAllElements();
         }
     }
 }   
