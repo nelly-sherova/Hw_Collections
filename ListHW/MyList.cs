@@ -32,7 +32,17 @@ namespace ListHW
         {
             return myList[index];
         }
-
+        public void AddRange(Type[] arr)
+        {
+            int j = myList.Length;
+            Array.Resize(ref myList, arr.Length + myList.Length);
+            
+            for (int i = 0; i < arr.Length; i++)
+            {
+                myList[j] = arr[i];
+                j++;
+            }
+        }
         public void ShowAllElements()
         {
             foreach(Type element in myList)

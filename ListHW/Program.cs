@@ -26,11 +26,15 @@ namespace ListHW
 
             Console.WriteLine(list.FindByIndex(0));
 
+            int[] arr = {1, 2, 3, 4, 5};
+            list.AddRange(arr);
+            
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Все элементы");
             Console.ResetColor();
             list.ShowAllElements();
             
+
 
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("\nDictionary");
