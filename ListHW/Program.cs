@@ -21,6 +21,11 @@ namespace ListHW
             list.ShowAllElements();
 
             Console.WriteLine("\n" + list.AllElements());
+
+            MyDictionary<string, string> dictionary = new MyDictionary<string, string>();
+
+            dictionary.Add("1", "Nilufar");
+            Console.WriteLine(dictionary.FindElementByIndex("1"));
         }
     }
 }   
