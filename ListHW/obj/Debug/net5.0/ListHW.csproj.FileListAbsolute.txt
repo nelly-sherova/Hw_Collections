@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ListHW.exe
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ListHW.deps.json
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ListHW.runtimeconfig.json
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ListHW.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ListHW.dll
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ref\ListHW.dll
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\bin\Debug\net5.0\ListHW.pdb
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.dll
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ref\ListHW.dll
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.pdb
+C:\Users\ASUS\Desktop\progects\ListHW\ListHW\obj\Debug\net5.0\ListHW.genruntimeconfig.cache
