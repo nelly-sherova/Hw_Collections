@@ -43,6 +43,13 @@ namespace ListHW
                 j++;
             }
         }
+        public void Insert(int index, Type element)
+        {
+            Array.Resize(ref myList, myList.Length + 1);
+            for (int i = myList.Length-1; i >= index + 1; i--)
+                myList[i] = myList[i - 1];
+            myList[index] = element;
+        }
         public void ShowAllElements()
         {
             foreach(Type element in myList)

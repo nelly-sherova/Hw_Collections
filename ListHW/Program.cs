@@ -26,12 +26,14 @@ namespace ListHW
 
             Console.WriteLine(list.FindByIndex(0));
 
-            Console.ForegroundColor = ConsoleColor.Green;
+            // AddRange
             int[] arr = {1, 2, 3, 4, 5};
             Console.ResetColor();
-            
-            list.AddRange(arr);
 
+            list.AddRange(arr);
+            // Insert
+            list.Insert(1, 1111);
+            
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Все элементы");
             Console.ResetColor();
