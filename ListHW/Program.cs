@@ -26,9 +26,12 @@ namespace ListHW
 
             Console.WriteLine(list.FindByIndex(0));
 
+            Console.ForegroundColor = ConsoleColor.Green;
             int[] arr = {1, 2, 3, 4, 5};
-            list.AddRange(arr);
+            Console.ResetColor();
             
+            list.AddRange(arr);
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Все элементы");
             Console.ResetColor();
